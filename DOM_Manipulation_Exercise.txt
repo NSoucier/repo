@@ -1,0 +1,14 @@
+1)  document.getElementbyId('container');
+2)  document.querySelector('#container');
+3)  document.querySelectorAll('.second');
+4)  document.querySelector('ol .third');
+5)  const id = document.querySelector('#container');
+    id.innerText = "Hello";
+6)  const divfoot = document.querySelector('div .footer');
+    divfoot.classList.add('main');
+7)  divfoot.classList.remove('main');
+8)
+9)
+10)
+11)
+12)
