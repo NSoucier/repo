@@ -4,11 +4,15 @@
 4)  document.querySelector('ol .third');
 5)  const id = document.querySelector('#container');
     id.innerText = "Hello";
-6)  const divfoot = document.querySelector('div .footer');
-    divfoot.classList.add('main');
-7)  divfoot.classList.remove('main');
-8)
-9)
-10)
-11)
-12)
+6)  const foot = document.querySelector('.footer');
+    foot.classList.add('main');
+7)  foot.classList.remove('main');
+8)  const list = document.createElement('li');
+9)  list.innerText = "four";
+10) const ul = document.querySelector('ul');
+    ul.append(list);
+11) const olitems = document.querySelector('ol li');
+    for (let li of olitems) {
+        li.style.backgroundColor = "green";
+    }
+12) foot.remove();
