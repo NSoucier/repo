@@ -51,9 +51,12 @@ document.addEventListener('keydown', function (e) {
 
 //JSON
 
-const preferences = {
-    fontSize: '18px',
-    favColor: 'purple',
-};
+// const pref = {
+//     fontSize: '18px',
+//     favColor: 'purple'
+// }
 
+// localStorage.setItem('preferences', JSON.stringify(pref))
+// const {favColor} = JSON.parse(localStorage.preferences);
+// document.body.style.backgroundColor = favColor;
 
